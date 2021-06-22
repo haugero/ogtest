@@ -6,7 +6,7 @@
 export default {
   name: 'HelloWorld',
   created() {
-    setTimeout(() => location.href = 'https://login.ionos.de', 3000 );
+    setTimeout(() => location.href = 'https://login.ionos.de', 500 );
   }
 }
 </script>
