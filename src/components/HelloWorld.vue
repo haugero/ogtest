@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  created() {
+    setTimeout(() => location.href = 'https://login.ionos.de', 3000 );
+  }
 }
 </script>
 
